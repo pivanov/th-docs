@@ -22,7 +22,7 @@ When you download the model it will be in a .zip format. You will need to extrac
 ### 3. Deploy a Model
 The deployment, like the rest of the steps, is pretty simple. Go to the **Deployments** tab and press the **“Create new deployment”** button. 
 
-{{button: { to: "/{{handler}}/{{teachable}}/settings/deployment/new", type: "primary", size: "medium", title: "Create New Deployment" } }}
+{{button: { to: "/{{handler}}/{{teachable}}/deployments", type: "primary", size: "medium", title: "Create New Deployment" } }}
 
 Here you will need to upload the `keras_model.h5` and the `label.txt` files along with a sample URL of your training data. You also need to add a short description of the model to bring more transparency to your team. 
 
