@@ -31,6 +31,4 @@ Here you will need to upload the `keras_model.h5` and the `label.txt` files alon
 And that’s it! You have successfully deployed a Teachable Machine model!
 
 ## More Examples
-Here is an awesome list full of creative ideas and examples:
-
-- [Awesome Teachable Machine List](https://github.com/SashiDo/awesome-teachable-machine) 
+Here is an [Awesome Teachable Machine List](https://github.com/SashiDo/awesome-teachable-machine) full of creative ideas and examples.
