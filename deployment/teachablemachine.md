@@ -14,7 +14,7 @@ Of course, before you get to deploy your model, the first thing you need to do i
 
 Once you have completed training you’ll need to [export your model](https://www.youtube.com/watch?v=n-zeeRLBgd0&list=PLJfHZtseuscuTQfodmFnbZ3rBgCWsRT9t&index=3) as a TensorFlow native model and convert it to **Keras.h5 model**. 
 
-![export-your-model-1](https://media-blog.sashido.io/content/images/2021/09/export-your-model-1.png)
+![export-your-model-1](https://media-blog.sashido.io/content/images/2021/10/teachablemachine-export.png)
  
 ### 2. Extract the .zip file
 When you download the model it will be in a .zip format. You will need to extract the `keras_model.h5` and `abels.txt` files on your computer.
@@ -26,7 +26,7 @@ The deployment, like the rest of the steps, is pretty simple. Go to the **Deploy
 
 Here you will need to upload the `keras_model.h5` and the `label.txt` files along with a sample URL of your training data. You also need to add a short description of the model to bring more transparency to your team. 
 
-![create-deployment-1](https://media-blog.sashido.io/content/images/2021/09/create-deployment-1.png)
+![create-deployment-1](https://media-blog.sashido.io/content/images/2021/10/create-a-deployment.png)
 
 And that’s it! You have successfully deployed a Teachable Machine model!
 
