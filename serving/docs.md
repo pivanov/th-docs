@@ -180,6 +180,8 @@ The SDK raise the following exceptions:
 
 > You can play around with your teachables via the [TeachbaleHub's Serving API Swagger UI]({{serving_api_swagger_url}}docs#/predictions/predict__user___teachable__predict__post) or following the examples below.
 
+{{serving_code_examples}}
+
 <br />
 
 ## API Endpoint
