@@ -180,8 +180,6 @@ The SDK raise the following exceptions:
 
 > You can play around with your teachables via the [TeachbaleHub's Serving API Swagger UI]({{serving_api_swagger_url}}docs#/predictions/predict__user___teachable__predict__post) or following the examples below.
 
-{{serving_code_examples}}
-
 <br />
 
 ## API Endpoint
@@ -219,6 +217,8 @@ For each prediction request towards the Rest API, you can pass the following Que
 ## Making Prediction Requests
 
 Another great feature that TeachableHub supports is 'Schema Validation'. It guarantees that every single prediction towards your model will hold the correct features, passed in the right order, and will return accurate results each time you make a prediction. Moreover, your teammates will be always informed of what features the model is expecting, their number, and order. How cool is that!
+
+{{serving_code_examples}}
 
 {{#if(deployment_has_features_sample)}}
 ```bash
