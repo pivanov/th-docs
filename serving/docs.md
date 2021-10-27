@@ -220,30 +220,6 @@ Another great feature that TeachableHub supports is 'Schema Validation'. It guar
 
 {{serving_code_examples}}
 
-{{#if(deployment_has_features_sample)}}
-```bash
-curl -X 'POST' \
-  '{{serving_api_base_url}}/{{handler}}/{{teachable}}/predict/?environment={{deployment_environment}}&version={{deployment_version}}' \
-  -H 'X-Serving-Key: your-serving-key' \
-  -H 'Content-Type: application/json' \
-  -d '{
-  "features": [{{deployment_features_sample}}]
-}'
-```
-{{/}}
-
-{{#if(!deployment_has_features_sample)}}
-```bash
-curl -X 'POST' \
-  '{{serving_api_base_url}}/{{handler}}/{{teachable}}/predict/?environment={{deployment_environment}}&version={{deployment_version}}' \
-  -H 'X-Serving-Key: your-serving-key' \
-  -H 'Content-Type: application/json' \
-  -d '{
-  "ndarray": {{deployment_ndarray_sample}}
-}'
-```
-{{/}}
-
 <br />
 
 ## Prediction Response
